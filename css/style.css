@@ -1,0 +1,115 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  color: #1a1a2e;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding: 0.75rem 1rem;
+  background: #1a1a2e;
+  color: #f0f0f5;
+  flex-shrink: 0;
+}
+
+.header h1 {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.subtitle {
+  font-size: 0.8rem;
+  color: #a0a0b8;
+  margin-top: 0.15rem;
+}
+
+#map {
+  flex: 1;
+  min-height: 0;
+  width: 100%;
+}
+
+.loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  background: #fff;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+  font-size: 0.95rem;
+}
+
+.error {
+  position: absolute;
+  top: 4.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  background: #fee;
+  color: #900;
+  padding: 0.75rem 1.25rem;
+  border-radius: 8px;
+  border: 1px solid #fcc;
+  max-width: 90%;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.station-popup {
+  font-size: 0.85rem;
+  line-height: 1.5;
+  min-width: 180px;
+}
+
+.station-popup h3 {
+  font-size: 1rem;
+  margin-bottom: 0.4rem;
+  color: #1a1a2e;
+}
+
+.station-popup dt {
+  font-weight: 600;
+  color: #555;
+  display: inline;
+}
+
+.station-popup dd {
+  display: inline;
+  margin: 0 0 0.25rem 0;
+}
+
+.station-popup dd::after {
+  content: "";
+  display: block;
+  margin-bottom: 0.15rem;
+}
+
+@media (max-width: 600px) {
+  .header h1 {
+    font-size: 0.95rem;
+  }
+
+  .subtitle {
+    font-size: 0.75rem;
+  }
+}
