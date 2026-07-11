@@ -1,12 +1,12 @@
+Con el temita del mundial recorde que existia un mapa oficial de TDA con la ubicacion de las antenas en el pais pero parece que el sitio original https://mapatda.arsat.com.ar/index.php ya no funciona, por suerte encontre el repo de Open Data Cordoba(https://github.com/OpenDataCordoba) que tiene un json con los estados de las antenas actualizado hasta el 11/11/25 asi que use eso con un poco de ayuda de Cursor para armar un mapa con OpenStreetMap y Leaflet
+
 # Estaciones TDA - Mapa
 
 Mapa interactivo de estaciones de Televisión Digital Abierta (TDA) en Argentina. Muestra la ubicación geográfica de cada antena con información detallada al hacer clic.
 
 ## Demo en vivo
 
-Una vez publicado en GitHub Pages, el sitio estará disponible en:
-
-`https://<tu-usuario>.github.io/tv-stations-map/`
+https://cramer28.github.io/Mapa_Estaciones_TDA/
 
 ## Fuente de datos
 
@@ -22,15 +22,6 @@ python -m http.server 8000
 ```
 
 Luego visite `http://localhost:8000`.
-
-## Despliegue en GitHub Pages
-
-1. Cree un repositorio en GitHub (por ejemplo `tv-stations-map`)
-2. Suba el contenido de este proyecto a la rama `main`
-3. En el repositorio, vaya a **Settings → Pages**
-4. En **Source**, seleccione **Deploy from branch**
-5. Elija la rama `main` y la carpeta `/ (root)`
-6. Guarde. El sitio estará disponible en unos minutos
 
 ## Tecnologías
 
