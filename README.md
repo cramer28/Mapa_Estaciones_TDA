@@ -1,4 +1,4 @@
-Con el temita del mundial recorde que existia un mapa oficial de TDA con la ubicacion de las antenas en el pais pero parece que el sitio original https://mapatda.arsat.com.ar/index.php ya no funciona, por suerte encontre el repo de [Open Data Cordoba](https://github.com/OpenDataCordoba) que tiene un json con los estados de las antenas actualizado hasta el 11/11/25 asi que use eso con un poco de ayuda de Cursor para armar un mapa con OpenStreetMap y Leaflet
+Con el temita del mundial recorde que existia un mapa oficial de TDA con la ubicacion de las antenas en el pais pero parece que el sitio original https://mapatda.arsat.com.ar/index.php ya no funciona, por suerte encontre el repo de [Open Data Cordoba](https://github.com/OpenDataCordoba) que tiene un json con los estados de las antenas actualizado hasta el 11/11/25 asi que use eso con un poco de ayuda de Cursor para armar un mapa con OpenStreetMap y Leaflet, para acceder al mapa usa el link de Github Pages en la seccion #Demo mas abajo.
 
 # Estaciones TDA - Mapa
 
@@ -6,7 +6,7 @@ Mapa interactivo de estaciones de Televisión Digital Abierta (TDA) en Argentina
 
 ## Demo en vivo
 
-https://cramer28.github.io/Mapa_Estaciones_TDA/
+[Ver Mapa de Estaciones/Antenas TDA en Argentina](https://cramer28.github.io/Mapa_Estaciones_TDA/)
 
 ## Fuente de datos
 
